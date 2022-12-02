@@ -1,0 +1,46 @@
+section,
+footer {
+    padding: 60px 0;
+}
+.showcase-img{
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-text {
+    padding: 60px;
+}
+
+.showcase{
+    padding: 0;
+}
+.team-iteam {
+    max-width: 200px;
+}
+
+.call-to-action{
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 768){
+ 
+    .service-item,
+    .team-iteam{
+        margin-bottom: 50px;
+    }
+
+    .service-item:last-child,
+    .team-item-last{
+        margin: 0;
+    }
+
+
+    .showcase-img{
+        height: 300px;
+    }
+
+  
+}
+

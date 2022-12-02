@@ -1,0 +1,22 @@
+/* h1{
+    text-align: center;
+}
+.accordion-button{
+    text-align: center;
+}
+.accordion-body{
+    text-align: center;
+} */
+
+*{
+    text-align: center;
+}
+.accordion-button{
+    background-color: rgb(247, 238, 238);
+    color: orange;
+    text-align: center;
+}
+.accordion-button:hover{
+    color: gray;
+    text-decoration: underline;
+}
